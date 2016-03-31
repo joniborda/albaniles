@@ -113,10 +113,10 @@
 						<div class="mobileSlider">
 							<ul class="slides">
 								<li>
-									<img src="assets/img/screen1.jpg" alt="Pantalla celular" />
+									<img src="assets/img/screen1.png" alt="Pantalla celular" />
 								</li>
 								<li>
-									<img src="assets/img/screen2.jpg" alt="Pantalla celular nueva"/>
+									<img src="assets/img/screen2.png" alt="Pantalla celular nueva"/>
 								</li>
 							</ul>
 						</div>
