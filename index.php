@@ -71,8 +71,8 @@
 						</button>
 						<a class="navbar-brand" href="#topWrap">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-paint-brush fa-stack-1x fa-inverse"></i>
+								<span class="fa fa-circle fa-stack-2x"></span>
+								<span class="fa fa-paint-brush fa-stack-1x fa-inverse"></span>
 							</span>
 							Alba<span class="title">ñiles</span>
 						</a>
@@ -93,11 +93,11 @@
 				<div class="col-md-6 col-md-push-6 jumboText">
 					<h1>Somos los constructores de la web</h1>
 					<h2>Diseñamos tu página como lo desees.</h2>
-					<a class="btn btn-lg btn-success actionBtn" href="#">	<i class="fa fa-mobile fa-4x pull-left"></i>
+					<a class="btn btn-lg btn-success actionBtn" href="#store">	<span class="fa fa-mobile fa-4x pull-left"></span>
 						<span class="line1">Available on the</span>
-						<br/>
+						<div></div>
 						<span class="line2">App Store</span>
-						<br/>
+						<div></div>
 						<span class="line1" itemprop="author" itemscope itemtype="https://schema.org/Person">
 						Albañiles.com.ar
 						</span>
@@ -113,10 +113,10 @@
 						<div class="mobileSlider">
 							<ul class="slides">
 								<li>
-									<img src="assets/img/screen1.jpg"/>
+									<img src="assets/img/screen1.jpg" alt="Pantalla celular" />
 								</li>
 								<li>
-									<img src="assets/img/screen2.jpg"/>
+									<img src="assets/img/screen2.jpg" alt="Pantalla celular nueva"/>
 								</li>
 							</ul>
 						</div>
@@ -130,7 +130,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 text-center feature">
-					<i class="fa fa-tablet icon"></i>
+					<span class="fa fa-tablet icon"></span>
 					<h3>Marketing Online</h3>
 					<p>
 						Te damos reputación online, te posicionamos entre los mejores
@@ -138,14 +138,14 @@
 					</p>
 				</div>
 				<div class="col-sm-4 text-center feature">
-					<i class="fa fa-pencil icon"></i>
+					<span class="fa fa-pencil icon"></span>
 					<h3>Desarrollo web</h3>
 					<p>
 						Desarrollamos su página a pedido con base de datos, sistema de pago.
 					</p>
 				</div>
 				<div class="col-sm-4 text-center feature">
-					<i class="fa fa-star icon"></i>
+					<span class="fa fa-star icon"></span>
 					<h3>Diseño Gráfico</h3>
 					<p>
 						
@@ -168,16 +168,16 @@
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
 					<div class="imgWrap">
-						<img class="img-responsive" src="assets/img/tablet.png"/>
-						<iframe class="iframe-youtube" frameborder="0" width="560" height="315" src="https://www.youtube.com/embed/CPmKxmvsL8Q?autoplay=1&amp;controls=0&amp;loop=1&amp;playlist=CPmKxmvsL8Q&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+						<img class="img-responsive" src="assets/img/tablet.png" alt="Pantalla de una tablet"/>
+						<iframe class="iframe-youtube" title="albaniles youtube" frameborder="0" src="https://www.youtube.com/embed/CPmKxmvsL8Q?autoplay=1&amp;controls=0&amp;loop=1&amp;playlist=CPmKxmvsL8Q&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="col-md-5">
 					<div class="productFeatures clearfix">
 						<div class="col-xs-2 icon">
 							<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-comments fa-stack-1x fa-inverse"></i>
+							<span class="fa fa-circle fa-stack-2x"></span>
+							<span class="fa fa-comments fa-stack-1x fa-inverse"></span>
 							</span>
 						</div>
 						<div class="col-xs-10">
@@ -190,8 +190,8 @@
 						</div>
 						<div class="col-xs-2 icon">
 							<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
+							<span class="fa fa-circle fa-stack-2x"></span>
+							<span class="fa fa-cogs fa-stack-1x fa-inverse"></span>
 							</span>
 						</div>
 						<div class="col-xs-10">
@@ -202,8 +202,8 @@
 						</div>
 						<div class="col-xs-2 icon">
 							<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+							<span class="fa fa-circle fa-stack-2x"></span>
+							<span class="fa fa-globe fa-stack-1x fa-inverse"></span>
 							</span>
 						</div>
 						<div class="col-xs-10">
@@ -235,7 +235,7 @@
 							<li>And a lot more gizzle</li>
 						</ul>
 						<li class="call">
-							<a class="btn btn-success btn-lg" href="#">Buy Now</a>
+							<a class="btn btn-success btn-lg" href="#buy">Buy Now0</a>
 						</li>
 					</ul>
 				</div>
@@ -250,7 +250,7 @@
 							<li>And a lot more gizzle</li>
 						</ul>
 						<li class="call">
-							<a class="btn btn-success btn-lg" href="#">Buy Now</a>
+							<a class="btn btn-success btn-lg" href="#buy_now">Buy Now1</a>
 						</li>
 					</ul>
 				</div>
@@ -265,7 +265,7 @@
 							<li>And a lot more gizzle</li>
 						</ul>
 						<li class="call">
-							<a class="btn btn-success btn-lg" href="#">Buy Now</a>
+							<a class="btn btn-success btn-lg" href="#buy_now_1">Buy Now2</a>
 						</li>
 					</ul>
 				</div>
@@ -358,27 +358,31 @@
 					</p>
 					<p class="social">
 						<a href="https://www.facebook.com/albacomar">
+							<span class="hide">facebook</span>
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+								<span class="fa fa-circle fa-stack-2x"></span>
+								<span class="fa fa-facebook fa-stack-1x fa-inverse"></span>
 							</span>
 						</a>
 						<a href="https://twitter.com/albacomar">
+							<span class="hide">twitter</span>
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+								<span class="fa fa-circle fa-stack-2x"></span>
+								<span class="fa fa-twitter fa-stack-1x fa-inverse"></span>
 							</span>
 						</a>
 						<a href="https://plus.google.com/u/1/115257879582883899281">
+							<span class="hide">google plus</span>
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+								<span class="fa fa-circle fa-stack-2x"></span>
+								<span class="fa fa-google-plus fa-stack-1x fa-inverse"></span>
 							</span>
 						</a>
 						<a href="https://www.youtube.com/channel/UC-KXxHD0Gv7YgS7Y8V7YQmw">
+							<span class="hide">youtube</span>
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+								<span class="fa fa-circle fa-stack-2x"></span>
+								<span class="fa fa-youtube fa-stack-1x fa-inverse"></span>
 							</span>
 						</a>
 					</p>
