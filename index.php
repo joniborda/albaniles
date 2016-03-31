@@ -28,18 +28,18 @@
 			<title>Albañiles de la web | Diseño de páginas web | Albañiles.com.ar</title>
 
 			<!-- Bootstrap core CSS -->
-			<link href="css/bootstrap.min.css" rel="stylesheet">
+			<link href="http://<?php echo $_SERVER['HTTP_HOST'];?>/css/bootstrap.min.css" rel="stylesheet">
 
 			<!-- Custom styles for this template -->
-			<link href="css/custom.css" rel="stylesheet">
-			<link href="css/flexslider.css" rel="stylesheet">
-			<link href="css/font-awesome.css" rel="stylesheet">
+			<link href="http://<?php echo $_SERVER['HTTP_HOST'];?>/css/custom.css" rel="stylesheet">
+			<link href="http://<?php echo $_SERVER['HTTP_HOST'];?>/css/flexslider.css" rel="stylesheet">
+			<link href="http://<?php echo $_SERVER['HTTP_HOST'];?>/css/font-awesome.css" rel="stylesheet">
 			<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
 			<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 			<link rel="author" href="https://plus.google.com/115257879582883899281"/>
 			<link rel="alternate" hreflang="en" href="http://www.albañiles.com.ar/en">
 			<link rel="alternate" hreflang="es-ar" href="http://www.albañiles.com.ar/">
-			<link rel="shortcut icon" href="assets/ico/favicon.ico">
+			<link rel="shortcut icon" href="http://<?php echo $_SERVER['HTTP_HOST'];?>/assets/ico/favicon.ico">
 			<link rel="profile" href="http://gmpg.org/xfn/11" />
 			<link rel="publisher" href="https://plus.google.com/115257879582883899281" />
 			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -108,15 +108,17 @@
 					    <meta itemprop="height" content="800">
 					</div>
 				</div>
+				
 				<div class="col-md-6 col-md-pull-6 hidden-xs">
 					<div class="mobile">
 						<div class="mobileSlider">
 							<ul class="slides">
 								<li>
-									<img src="assets/img/screen1.png" alt="Pantalla celular" />
+									<img src="
+									http://<?php echo $_SERVER['HTTP_HOST'];?>/assets/img/screen1.png" alt="Pantalla celular" />
 								</li>
 								<li>
-									<img src="assets/img/screen2.png" alt="Pantalla celular nueva"/>
+									<img src="http://<?php echo $_SERVER['HTTP_HOST'];?>/assets/img/screen2.png" alt="Pantalla celular nueva"/>
 								</li>
 							</ul>
 						</div>
@@ -168,7 +170,7 @@
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
 					<div class="imgWrap">
-						<img class="img-responsive" src="assets/img/tablet.png" alt="Pantalla de una tablet"/>
+						<img class="img-responsive" src="http://<?php echo $_SERVER['HTTP_HOST'];?>/assets/img/tablet.png" alt="Pantalla de una tablet"/>
 						<iframe class="iframe-youtube" title="albaniles youtube" frameborder="0" src="https://www.youtube.com/embed/CPmKxmvsL8Q?autoplay=1&amp;controls=0&amp;loop=1&amp;playlist=CPmKxmvsL8Q&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
@@ -392,8 +394,8 @@
 	</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/flexslider.js"></script>
+    <script src="http://<?php echo $_SERVER['HTTP_HOST'];?>/js/bootstrap.min.js"></script>
+    <script src="http://<?php echo $_SERVER['HTTP_HOST'];?>/js/flexslider.js"></script>
 	
 <script type="text/javascript">
 $(document).ready(function() {
@@ -503,6 +505,6 @@ $(document).ready(function() {
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+
   </body>
 </html>

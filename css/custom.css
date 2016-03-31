@@ -512,3 +512,26 @@ footer .social a .fa-inverse {
 .hide {
 	display: none;
 }
+
+#topPorfolio {
+	margin-top: 70px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+.porfolio_img {
+	width: 100%;
+	-webkit-box-shadow: 0 2px 13px 1px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 2px 13px 1px rgba(0,0,0,.25);
+	box-shadow: 0 2px 13px 1px rgba(0,0,0,.25);
+}
+
+.porfolio_box {
+	padding: 15px;
+}
+#topPorfolio .sectionTitle {
+	margin-top: 20px;
+}
+.porfolio_bottom {
+	margin: 10px;
+}
