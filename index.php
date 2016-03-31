@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-	<html lang="es">
+<html lang="es-AR"
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:og="http://ogp.me/ns#" 
+	xmlns:fb="http://www.facebook.com/2008/fbml" >
 		<head>
 			<meta charset="utf-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta name="author" content="Abañiles" />
-			<meta name="description" content="Diseñamos tu página como lo desees.">
+			<meta name="description" content="Diseñamos tu página como lo desees. Diseño de sitio web">
+			<meta name="keywords" content="Albañiles, Albanil, Abaniles, Página, Web, Diseño, Template, Sitio, Hosting" />	
+			<meta name="google-site-verification" content="U7JkijZg4Y2q8-sTOVTiyUUCxxdk_U1n_aCw2pAdqcs" />
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:description" content="" />
@@ -14,14 +19,12 @@
 			<meta property="fb:app_id" content="179786012358259" />
 			<meta property='og:description' content="Tu página web rápido"/>
 			<meta property="og:image" content="http://www.xn--albailes-g3a.com.ar/assets/img/tablet.png" />
+			<meta property="og:locale" content="es_AR" />
 			<meta property='og:section' content="Diseño"/>
 			<meta property='og:site_name' content='Albañiles' />
 			<meta property='og:title' content='Constructores de la web'/>
-			<meta property='og:type' content='Article'/>
+			<meta property='og:type' content='wedsite'/>
 			<meta property='og:url' content='http://www.albañiles.com.ar'/>
-
-			<link rel="shortcut icon" href="assets/ico/favicon.ico">
-
 			<title>Albañiles de la web | Diseño de páginas web | Albañiles.com.ar</title>
 
 			<!-- Bootstrap core CSS -->
@@ -34,6 +37,11 @@
 			<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
 			<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 			<link rel="author" href="https://plus.google.com/115257879582883899281"/>
+			<link rel="alternate" hreflang="en" href="http://www.albañiles.com.ar/en">
+			<link rel="alternate" hreflang="es-ar" href="http://www.albañiles.com.ar/">
+			<link rel="shortcut icon" href="assets/ico/favicon.ico">
+			<link rel="profile" href="http://gmpg.org/xfn/11" />
+			<link rel="publisher" href="https://plus.google.com/115257879582883899281" />
 			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -80,13 +88,25 @@
 					</div><!--/.nav-collapse -->
 				</div>
 			</div>
-	
 			<div id="topWrap" class="jumbotron">
 			<div class="container">
 				<div class="col-md-6 col-md-push-6 jumboText">
 					<h1>Somos los constructores de la web</h1>
 					<h2>Diseñamos tu página como lo desees.</h2>
-					<a class="btn btn-lg btn-success actionBtn" href="#"><i class="fa fa-mobile fa-4x pull-left"></i><span class="line1">Available on the</span><br/><span class="line2">App Store</span></a>
+					<a class="btn btn-lg btn-success actionBtn" href="#">	<i class="fa fa-mobile fa-4x pull-left"></i>
+						<span class="line1">Available on the</span>
+						<br/>
+						<span class="line2">App Store</span>
+						<br/>
+						<span class="line1" itemprop="author" itemscope itemtype="https://schema.org/Person">
+						Albañiles.com.ar
+						</span>
+					</a>
+					<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+					    <meta itemprop="url" content="http://www.albañiles.com.ar/assets/img/tablet.png">
+					    <meta itemprop="width" content="800">
+					    <meta itemprop="height" content="800">
+					</div>
 				</div>
 				<div class="col-md-6 col-md-pull-6 hidden-xs">
 					<div class="mobile">
@@ -149,6 +169,7 @@
 				<div class="col-md-5 col-md-offset-1">
 					<div class="imgWrap">
 						<img class="img-responsive" src="assets/img/tablet.png"/>
+						<iframe class="iframe-youtube" frameborder="0" width="560" height="315" src="https://www.youtube.com/embed/CPmKxmvsL8Q?autoplay=1&amp;controls=0&amp;loop=1&amp;playlist=CPmKxmvsL8Q&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="col-md-5">
@@ -331,8 +352,10 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 text-center">
-					<p>Copyright &copy; 2016 Albañiles.com.ar</a>. All Rights Reserved</p>
+				<div class="col-xs-12 text-center"  itemscope itemtype="http://schema.org/Store">
+					<p>Copyright &copy; 2016 <span itemprop="name">Albañiles.com.ar</span></a>. All Rights Reserved
+					<a href="mailto:info.albacomar@gmail.com" itemprop="email">info.albacomar@gmail.com</a>
+					</p>
 					<p class="social">
 						<a href="https://www.facebook.com/albacomar">
 							<span class="fa-stack fa-lg">
@@ -364,10 +387,6 @@
 		</div>
 	</footer>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/flexslider.js"></script>
@@ -434,5 +453,52 @@ $(document).ready(function() {
 		
 });
 </script>
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"https://example.com/article"
+    },
+    "headline": "Diseño de pagina web",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://www.xn--albailes-g3a.com.ar/assets/img/tablet.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "<?php echo date('c');?>",
+    "dateModified": "<?php echo date('c');?>",
+    "author": {
+      "@type": "Person",
+      "name": "https://plus.google.com/115257879582883899281"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Abañiles",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://www.xn--albailes-g3a.com.ar/assets/img/tablet.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "Diseño de pagina"
+  }
+</script>
+<script>
+  (function() {
+    var cx = '003971869277745411424:ktkagfqmwa0';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
   </body>
 </html>
