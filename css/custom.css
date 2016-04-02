@@ -535,3 +535,10 @@ footer .social a .fa-inverse {
 .porfolio_bottom {
 	margin: 10px;
 }
+
+.top {
+	margin-top: 70px;
+}
+a.active {
+	color:#428BCA !important;
+}

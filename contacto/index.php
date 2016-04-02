@@ -2,45 +2,18 @@
 	$base_url = 'http://' .$_SERVER['HTTP_HOST'];
 	include '../header.php';
 ?>
-			<div id="topPorfolio">
-			<div class="container">
-				<h2 class="sectionTitle">Nuestros clientes</h2>
-				<div class="row">
-				<div class="col-md-4 col-sm-6 col-xs-12 porfolio_box">
-					<a href="#">
-						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" />
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 porfolio_box">
-					<a href="#">
-						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" />
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 porfolio_box">
-					<a href="#">
-						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" />
-					</a>
-				</div>
-				</div>
-				<div class="porfolio_bottom">
-					<a href="#contactWrap" class="btn btn-primary">
-						Comenzar Ahora <span class="fa fa-angle-right"></span>
-					</a>
-				</div>
-			</div>
-			</div>
-	<div id="contactWrap">
+	<div id="contactWrap" class="top">
 		<div class="overlay">
 			<div class="container">
 				<div class="row">
 						<div class="col-xs-12">
-						<h2 class="sectionTitle">Comenzar ahora</h2>
+						<h2 class="sectionTitle">Contactanos</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-12 text-center">
 						<div class="blurb">
-						Envíanos tus datos y nosotros comenzaremos el diseño.
+						Dejanos un mensaje sobre qué queres diseñar y nos mantenemos en contacto.
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url> 
+    <loc>http://www.albañiles.com.ar/index.php</loc> 
+    <image:image>
+       <image:loc>http://www.albañiles.com.ar/screen1.png</image:loc>
+       <image:caption>Diseño de página web</image:caption>
+    </image:image>
+    <video:video>
+      <video:content_loc>
+        https://www.youtube.com/watch?v=CPmKxmvsL8Q
+      </video:content_loc>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">
+        https://www.youtube.com/watch?v=CPmKxmvsL8Q
+      </video:player_loc>
+      <video:thumbnail_loc>
+        http://www.albañiles.com.ar/screen2.png
+      </video:thumbnail_loc>
+      <video:title>Página web Albañiles.com.ar</video:title>  
+      <video:description>
+        Diseña tu página web con albañiles.com.ar | albacomar
+      </video:description>
+    </video:video>
+  </url>
+  <url> 
+    <loc>http://www.albañiles.com.ar/contacto/index.php</loc> 
+  </url>
+  <url> 
+    <loc>http://www.albañiles.com.ar/porfolio/index.php</loc> 
+  </url>
+</urlset>
