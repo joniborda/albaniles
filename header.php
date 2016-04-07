@@ -81,22 +81,22 @@
 				<ul class="nav navbar-nav">
 					<li>
 						<a 
-							href="<?php echo $base_url; ?>" 
+							href="<?php echo $base_url; ?><?php echo (isset($_REQUEST['buscar'])) ? '?click=true' : ''; ?>"
 							class="<?php echo ($_SERVER['REQUEST_URI'] == '/'? 'active' : '');?>">
 							Inicio
 						</a>
 					</li>
 					<li>
 						<a 
-							href="<?php echo $base_url; ?>/comenzar"
+							href="<?php echo $base_url; ?>/comenzar<?php echo (isset($_REQUEST['buscar'])) ? '?click=true' : ''; ?>"
 							class="<?php echo ($_SERVER['REQUEST_URI'] == '/comenzar/'? 'active' : '');?>">
 							¿Cómo empezar?
 						</a>
 					</li>
 					<li>
 						<a 
-							href="<?php echo $base_url; ?>/porfolio"
-							class="<?php echo ($_SERVER['REQUEST_URI'] == '/porfolio/'? 'active' : '');?>">
+							href="<?php echo $base_url; ?>/diseno-pagina-web<?php echo (isset($_REQUEST['buscar'])) ? '?click=true' : ''; ?>"
+							class="<?php echo ($_SERVER['REQUEST_URI'] == '/diseno-pagina-web/'? 'active' : '');?>">
 							Porfolio
 						</a>
 					</li>
@@ -105,7 +105,7 @@
 <!--							<li><a href="#testimonialsWrap">Testimonio</a></li>-->
 					<li>
 						<a 
-							href="<?php echo $base_url; ?>/contacto"
+							href="<?php echo $base_url; ?>/contacto<?php echo (isset($_REQUEST['buscar'])) ? '?click=true' : ''; ?>"
 							class="<?php echo ($_SERVER['REQUEST_URI'] == '/contacto/'? 'active' : '');?>">
 							Contacto
 						</a>
