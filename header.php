@@ -95,9 +95,9 @@
 					</li>
 					<li>
 						<a 
-							href="<?php echo $base_url; ?>/porfolio"
-							class="<?php echo ($_SERVER['REQUEST_URI'] == '/porfolio/'? 'active' : '');?>">
-							Porfolio
+							href="<?php echo $base_url; ?>/diseno-pagina-web"
+							class="<?php echo ($_SERVER['REQUEST_URI'] == '/diseno-pagina-web/'? 'active' : '');?>">
+							Nuestros clientes
 						</a>
 					</li>
 <!--							<li><a href="#productWrap">Producto</a></li>-->
