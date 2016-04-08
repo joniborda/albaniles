@@ -151,7 +151,13 @@ $(document).ready(function() {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
+
+  var hacer = false;
+  <?php if ($_REQUEST['buscar']): ?>
+  	hacer = true;
+  <?php endif; ?>
 </script>
+<script type="text/javascript" src="<?php echo $base_url; ?>/js/jquery_functions.js"></script>
 
   </body>
 </html>
