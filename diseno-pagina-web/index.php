@@ -7,18 +7,22 @@
 				<h2 class="sectionTitle">Nuestros clientes</h2>
 				<div class="row">
 				<div class="col-md-4 col-sm-6 col-xs-12 porfolio_box">
-					<a href="#">
-						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" />
+					<a href="http://www.piletas-de-fibra.com.ar">
+						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" title="piletas-de-fibra" alt="www.piletas-de-fibra.com.ar"/>
+						<span class="hide button_visite">Piletas de Fibras</span>
+
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12 porfolio_box">
-					<a href="#">
-						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" />
+					<a href="http://www.piletas-de-fibra.com.ar">
+						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" title="piletas-de-fibra" alt="www.piletas-de-fibra.com.ar"/>
+						<span class="hide button_visite">Piletas de Fibras</span>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12 porfolio_box">
-					<a href="#">
-						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" />
+					<a href="http://www.piletas-de-fibra.com.ar">
+						<img src="<?php echo $base_url; ?>/assets/img/porfolio_pileta.png" class="porfolio_img" title="piletas-de-fibra" alt="www.piletas-de-fibra.com.ar"/>
+						<span class="hide button_visite">Piletas de Fibras</span>
 					</a>
 				</div>
 				</div>
@@ -75,3 +79,4 @@
 <?php
 	include '../footer.php';
 ?>
+<script type="text/javascript" src="<?php echo $base_url; ?>/js/diseno_pagina_web.js"></script>
