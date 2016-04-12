@@ -17,7 +17,7 @@
 						</div>
 					</div>
 				</div>
-				<form action="send.php" method="post">
+				<form action="../send.php" method="post">
 				<div class="row">
 					<div class="col-sm-4 col-sm-offset-2">
 						<div class="inputContainer">

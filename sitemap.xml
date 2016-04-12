@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
-  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url> 
     <loc>http://www.albañiles.com.ar/index.php</loc> 
     <image:image>
@@ -28,6 +29,31 @@
     <loc>http://www.albañiles.com.ar/contacto/index.php</loc> 
   </url>
   <url> 
-    <loc>http://www.albañiles.com.ar/porfolio/index.php</loc> 
+    <loc>http://www.albañiles.com.ar/comenzar</loc> 
+    <news:news>
+      <news:publication>
+        <news:name>Diseño de pagina web-Comenzar</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:genres>PressRelease, Blog, OpEd, Opinion</news:genres>
+      <news:publication_date>2016-04-12</news:publication_date>
+      <news:title>Diseño de página Web-Comenzar</news:title>
+      <news:keywords>pagina, web, diseño, html, html5, ccs3, js, javascript, css, template, layouts</news:keywords>
+      <news:stock_tickers>NASDAQ:A, NASDAQ:B</news:stock_tickers>
+    </news:news>
+  </url>
+  <url>
+    <loc>http://www.albañiles.com.ar/diseno-pagina-web/</loc> 
+    <news:news>
+      <news:publication>
+        <news:name>Diseño de pagina web</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:genres>PressRelease, Blog, OpEd, Opinion</news:genres>
+      <news:publication_date>2016-04-12</news:publication_date>
+      <news:title>Diseño de página Web</news:title>
+      <news:keywords>pagina, web, diseño, html, html5, ccs3, js, javascript, css, template, layouts</news:keywords>
+      <news:stock_tickers>NASDAQ:A, NASDAQ:B</news:stock_tickers>
+    </news:news>
   </url>
 </urlset>
