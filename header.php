@@ -1,3 +1,14 @@
+<?php
+function generateRandomString($length = 10) {
+    $characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
+}
+?>
 <!DOCTYPE html>
 <html lang="es-AR"
 	xmlns="http://www.w3.org/1999/xhtml" 
@@ -81,23 +92,23 @@
 				<ul class="nav navbar-nav">
 					<li>
 						<a 
-							href="<?php echo $base_url; ?><?php echo (isset($_REQUEST['buscar'])) ? '?click=true' : ''; ?>"
+							href="<?php echo $base_url; ?><?php echo (isset($_REQUEST['buscar'])) ? '?buscar=' . generateRandomString(10) : ''; ?>"
 							class="<?php echo ($_SERVER['REQUEST_URI'] == '/'? 'active' : '');?>">
 							Inicio
 						</a>
 					</li>
 					<li>
 						<a 
-							href="<?php echo $base_url; ?>/comenzar<?php echo (isset($_REQUEST['buscar'])) ? '?click=true' : ''; ?>"
+							href="<?php echo $base_url; ?>/comenzar<?php echo (isset($_REQUEST['buscar'])) ? '?buscar=' . generateRandomString(10) : ''; ?>"
 							class="<?php echo ($_SERVER['REQUEST_URI'] == '/comenzar/'? 'active' : '');?>">
 							¿Cómo empezar?
 						</a>
 					</li>
 					<li>
 						<a 
-							href="<?php echo $base_url; ?>/diseno-pagina-web<?php echo (isset($_REQUEST['buscar'])) ? '?click=true' : ''; ?>"
+							href="<?php echo $base_url; ?>/diseno-pagina-web<?php echo (isset($_REQUEST['buscar'])) ? '?buscar=' . generateRandomString(10) : ''; ?>"
 							class="<?php echo ($_SERVER['REQUEST_URI'] == '/diseno-pagina-web/'? 'active' : '');?>">
-							Porfolio
+							Nuestros clientes
 						</a>
 					</li>
 <!--							<li><a href="#productWrap">Producto</a></li>-->
@@ -105,7 +116,7 @@
 <!--							<li><a href="#testimonialsWrap">Testimonio</a></li>-->
 					<li>
 						<a 
-							href="<?php echo $base_url; ?>/contacto<?php echo (isset($_REQUEST['buscar'])) ? '?click=true' : ''; ?>"
+							href="<?php echo $base_url; ?>/contacto<?php echo (isset($_REQUEST['buscar'])) ? '?buscar=' . generateRandomString(10)	 : ''; ?>"
 							class="<?php echo ($_SERVER['REQUEST_URI'] == '/contacto/'? 'active' : '');?>">
 							Contacto
 						</a>

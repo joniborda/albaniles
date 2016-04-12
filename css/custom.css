@@ -529,6 +529,9 @@ footer .social a .fa-inverse {
 .porfolio_box {
 	padding: 15px;
 }
+.porfolio_box>a{
+	text-decoration: none;
+}
 #topPorfolio .sectionTitle {
 	margin-top: 20px;
 }
@@ -541,4 +544,16 @@ footer .social a .fa-inverse {
 }
 a.active {
 	color:#428BCA !important;
+}
+
+.button_visite {
+	text-align: center;
+    margin: auto;
+    display: block;
+    top: -82px;
+    position: relative;
+    color: #333;
+    text-shadow: 1px 1px #FFF;
+    height: 0px;
+    font-weight: bold;
 }
